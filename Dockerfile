@@ -1,6 +1,6 @@
-FROM library/python
+FROM library/python:2.7
 
 RUN pip install ptvsd==3.0.0
-COPY main.py /
+COPY main.py /tmp
 
-CMD ["python", "main.py"]
+CMD ["python2", "/tmp/main.py"]
