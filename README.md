@@ -5,7 +5,7 @@ This is a simple example to demonstrate how to do Python remote debugging runnin
 
 
 1. Install the Python Remote Debugger library 
-> Note: 3.0.0 is the only version currently working at the moment
+    > Note: 3.0.0 is the only version working at the moment
     
     `pip install ptvsd==3.0.0`
     
@@ -42,6 +42,7 @@ This is a simple example to demonstrate how to do Python remote debugging runnin
     ]}
     ```
 
+    >Note: if the container is not running locally, you need to set the container IP in the **host**
+
 1. Select the *Python: Attach* configuration and Hit F5
-  
-  > Note: Breakpoints and active line are not working well in VS Code
+    > Note: Breakpoints and active line are not working well in VS Code
